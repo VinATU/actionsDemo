@@ -6,7 +6,7 @@ import org.junit.Test;
 
 /**
  * Unit test for simple App.
- // comment test commit
+ // comment test commit 3
  */
 public class AppTest 
 {
