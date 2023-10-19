@@ -16,7 +16,6 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.release>21</maven.compiler.release>
   </properties>
-
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -25,7 +24,6 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-
   <build>
       <plugins>
         
@@ -34,6 +32,7 @@
           <version>3.8.0</version>
         </plugin>
       </plugins>
+      #jacoco plugin for code coverage
       <plugin>
 <groupId>org.jacoco</groupId>
 <artifactId>jacoco-maven-plugin</artifactId>
@@ -54,6 +53,5 @@
 </execution>
 </executions>
 </plugin>
-
   </build>
 </project>
