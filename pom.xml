@@ -31,9 +31,9 @@
           <artifactId>maven-compiler-plugin</artifactId>
           <version>3.8.0</version>
         </plugin>
-      </plugins>
+      
       #jacoco plugin for code coverage
-      <plugin>
+<plugin>
 <groupId>org.jacoco</groupId>
 <artifactId>jacoco-maven-plugin</artifactId>
 <version>0.8.6</version>
@@ -53,5 +53,6 @@
 </execution>
 </executions>
 </plugin>
+</plugins>
   </build>
 </project>
