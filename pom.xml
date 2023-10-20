@@ -35,12 +35,12 @@
           <version>3.8.0</version>
         </plugin>
         <plugin>
-         <!-- https://mvnrepository.com/artifact/org.jacoco/jacoco-maven-plugin -->
+          <!-- https://mvnrepository.com/artifact/org.jacoco/jacoco-maven-plugin -->
           <dependency>
             <groupId>org.jacoco</groupId>
             <artifactId>jacoco-maven-plugin</artifactId>
             <version>0.8.11</version>
-         </dependency>
+          </dependency>
         </plugin>
       </plugins>
   </build>
